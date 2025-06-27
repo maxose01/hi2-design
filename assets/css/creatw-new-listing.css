@@ -1,0 +1,16 @@
+.white-outline-box
+{
+	border: 1px solid #ced4da;
+	border-radius: 0.4rem;
+	text-align: center;
+	padding: 25px 15px;
+}
+
+.white-btn
+{
+	border-radius: 0.6rem;
+	background: #fff;
+	color: #ddd;
+	color: #9294a3;
+    font-weight: 600;
+}

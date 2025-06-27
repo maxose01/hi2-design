@@ -1,0 +1,52 @@
+.group-main .nav-pills-soft .nav-link.active,
+.group-main .nav .nav-item .nav-link.active {
+  /* background-color: rgba(var(--bs-primary-rgb), 0.1); */
+  background: var(--bs-info);
+  color: var(--bs-primary);
+}
+.group-main .nav-link {
+  color: #fff;
+}
+
+/* .group-main .nav-link:hover, .nav-link:focus {
+   
+    background: var(--bs-info);
+  color: var(--bs-primary);
+} */
+.group-main .group-member-img img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.group-main .group-member-item-1 {
+  margin-right: -0.8rem;
+  z-index: 1;
+}
+
+.group-main .story-img {
+  outline: 4px solid #eee;
+  outline-offset: -4px;
+  border-radius: 50%;
+  height: 90px;
+}
+
+
+.dark-blue-btn
+{
+      background: #131c61;
+    border: 1px solid #131c61;
+    font-size: 11px;
+    padding: 5px 13px;
+    line-height: normal;
+}
+
+.form-control
+{
+  color: #fff !important;
+}
+
+.form-control:placeholder
+{
+  color: #fff !important;
+}

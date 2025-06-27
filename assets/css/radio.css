@@ -1,0 +1,51 @@
+.carousel-indicators [data-bs-target]
+{
+	 width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border:none;
+    background: #e1e1e1;
+}
+
+.carousel-indicators .active
+{
+    background: #62dc4e;
+	 width: 8px;
+    height: 8px;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+    }
+
+.carousel-item img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.radio-slider .carousel-item 
+{
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-pink
+{
+        background: #f2ecec;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.avatar.avatar-story {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.avatar.avatar-story img{
+    border-radius: 8px;
+}
+

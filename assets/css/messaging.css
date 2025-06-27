@@ -1,0 +1,12 @@
+
+.messaging-left-part .nav-pills .nav-link{
+    color:#fff
+}
+.messaging-left-part .nav-pills-soft .nav-link.active, .messaging-left-part .nav-pills-soft .show > .nav-link {
+    background-color: var(--bs-info)!important;
+    color: #000;
+}
+.messaging-left-part .nav-link:hover {
+    background: var(--bs-info)!important;
+    color: #000;
+}

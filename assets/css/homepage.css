@@ -1,0 +1,25 @@
+.group-member-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.group-member-item-1 {
+  margin-right: -0.8rem;
+  z-index: 1;
+}
+
+
+.story-img {
+  outline: 4px solid #eee;
+  outline-offset: -4px;
+  border-radius: 50%;
+  height: 90px;
+}
+
+.fixed-div
+{
+  position: fixed;
+  width: 313px;
+}
+

@@ -1,0 +1,12 @@
+.event-slider .carousel-control-prev {
+  left: -54px;
+}
+.event-slider .carousel-control-next {
+  right: -54px;
+}
+.selection-dropdown .choices__inner {
+  width: 100px;
+}
+.eventtab .active {
+  background-color: var(--bs-info) !important;
+}

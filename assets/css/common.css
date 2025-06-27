@@ -1,0 +1,125 @@
+
+
+/*like button css*/
+.like-icon, .like-icon2 {
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.like-icon.liked {
+  color: blue;
+}
+
+#like-button, #like-button2 {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#like-button i, #like-button2 i {
+  color: blue;
+  transition: color 0.3s;
+}
+
+/* Add any desired styles to the like count element */
+#likeCount, #likeCount2 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#popupContainer, #popupContainer2 {
+  position: relative;
+}
+
+#popup {
+position: absolute;
+    left: 0;
+    background-color: #fff;
+    bottom: 30px;
+    border-radius: 8px;
+}
+
+#popupContainer2 {
+  position: relative;
+}
+
+#popupContainer {
+  position: relative;
+}
+
+#popup2 {
+position: absolute;
+    left: 50%;
+    background-color: #fff;
+    bottom: 30px;
+    border-radius: 8px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+
+.hidden2 {
+  display: none;
+}
+
+.reaction {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.reaction-popup
+{
+  padding: 10px;
+      border-radius: 8px;
+}
+
+  @keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.emoji {
+  display: inline-block;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.emoji2 {
+  animation-duration: 2s;
+}
+.emoji3 {
+  animation-duration: 3s;
+}
+.emoji4 {
+  animation-duration: 4s;
+}
+.emoji5 {
+  animation-duration: 5s;
+}
+.emoji6 {
+  animation-duration: 6s;
+}
+.emoji7 {
+  animation-duration: 7s;
+}
+
+.emojiDiv
+{
+      display: block;
+    position: absolute;
+    top: -62px;
+    background: rgb(255, 255, 255);
+    left: 0px;
+    border-radius: 12px;
+}

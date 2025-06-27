@@ -1,0 +1,149 @@
+/*.dropdown {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    line-height: initial;
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding: 15px 15px 10px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 340px;
+    z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.2s linear 0s;
+}*/
+
+.cus-drop-memu.dropdown-menu
+{
+    padding: 15px 15px 10px;
+}
+
+.cus-drop-memu.dropdown-menu::before
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -10px;
+    right: 20px;
+}
+
+.cus-drop-memu.dropdown-menu.show
+{
+        margin-top: 10px;
+}
+
+
+.cus-drop-memu-two.dropdown-menu
+{
+    padding: 15px 15px 10px;
+}
+
+.cus-drop-memu-two.dropdown-menu::before
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -10px;
+    right: 20px;
+}
+
+.cus-drop-memu-two.dropdown-menu.show
+{
+        margin-top: 10px;
+}
+
+.cus-drop-memu-two.dropdown-menu > li > a {
+    color: #1f273f;
+    font-size: 14px;
+}
+
+.cus-drop-memu.dropdown-menu > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 31.6%;
+    margin-right: 4px;
+    margin-bottom: 8px;
+}
+.cus-drop-memu.dropdown-menu > li:nth-child(3n) {
+    margin-right: 0;
+}
+.cus-drop-memu.dropdown-menu > li:last-child{
+	margin-bottom: 0
+}
+.cus-drop-memu.dropdown-menu > li > a {
+    border-radius: 5px;
+    color: #1f273f;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 6px;
+    text-align: center;
+    width: 100%;
+}
+.cus-drop-memu.dropdown-menu > li > a:hover{
+	background: #f3f3f3;
+}
+.cus-drop-memu.dropdown-menu > li > a.logout {
+    background: #ff7373;
+    border-color: #ff2727;
+    color: #fff;
+}
+.cus-drop-memu.dropdown-menu > li > a i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cus-drop-memu.dropdown-menu > li > a i > img{
+    width: 30px;
+}
+.cus-drop-memu.dropdown-menu > li.logout {
+    vertical-align: middle;
+    width: 100%;
+}
+.cus-drop-memu.dropdown-menu > li.logout > a {
+    background: #ede5ff none repeat scroll 0 0;
+    display: inline-block;
+    padding: 7px 0;
+}
+.cus-drop-memu.dropdown-menu > li.logout > a i {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.cus-drop-memu.dropdown-menu > li.logout > a:hover{
+	background: #ff7373;
+    color: #fff;
+}
+.cus-drop-memu.dropdown-menu > li.logout > a:hover i{
+	color: #fff;
+}
+
+
+
+
+.sub-cus-drop-memu-two > li > a {
+    color: #1f273f;
+    font-size: 14px;
+}
+
+.sub-cus-drop-memu-two
+{
+    padding-left: 20px;
+}
+
+.sub-cus-drop-memu-two > li
+{
+    list-style: none;
+}

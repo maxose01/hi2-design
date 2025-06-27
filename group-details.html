@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile | Hi2</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+
+    <script></script>
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/font-awesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/dropzone/dist/dropzone.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/glightbox-master/dist/css/glightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/choices.js/public/assets/styles/choices.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/flatpickr/dist/flatpickr.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/myprofile.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/group.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/group-create.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css" />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader-item">
+        <div class="spinner-grow text-success"></div>
+      </div>
+    </div>
+
+ <header class="navbar-light fixed-top header-static bg-mode">
+      <nav
+        class="navbar navbar-expand-lg navbar-top px-3 py-2 text-bg-primary shadow fixed-top"
+        >
+        <div class="container-xxl">
+          <a class='d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none' href='index.html'>
+          <img src="assets/images/logo.png" alt="hi2" class="navbar-logo" />
+          </a>
+          <button
+            class="navbar-toggler ms-auto icon-md btn btn-light p-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+          <span class="navbar-toggler-animation">
+          <span></span>
+          <span></span>
+          <span></span>
+          </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div
+              class="nav mt-3 mt-lg-0 flex-nowrap align-items-center px-4 px-lg-0"
+              >
+              <div class="nav-item w-100">
+                <form
+                  class="rounded position-relative col-12 col-lg-auto mb-2 mb-lg-0 ms-lg-3"
+                  >
+                  <input
+                    class="form-control ps-5 bg-light rounded-pill"
+                    type="search"
+                    placeholder="Search..."
+                    aria-label="Search"
+                    />
+                  <button
+                    class="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y"
+                    type="submit"
+                    >
+                  <i class="bi bi-search fs-5"> </i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <ul
+              class="nav flex-nowrap align-items-center ms-sm-3 list-unstyled px-4 px-lg-0 my-3 my-lg-0 ms-lg-auto"
+              >
+              <li class="nav-item ms-4 px-3 dropdown">
+                <a
+                  class="nav-link icon-md btn btn-link p-0"
+                  href="group-details.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img
+                  class="avatar-img rounded-circle"
+                  src="assets/images/avatar/15.jpg"
+                  alt=""
+                  />
+                <span class="fw-bold mx-2 text-light">Rosy</span>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu-two  dropdown-menu-size-md p-0 shadow border-0"
+                  aria-labelledby="megamenuDropdown"
+                  >
+                  <li class="px-3 mt-3">
+                    <div class="d-flex align-items-center position-relative">
+                      <div class="avatar me-3">
+                        <img
+                          class="avatar-img rounded-circle"
+                          src="assets/images/avatar/15.jpg"
+                          alt="avatar"
+                          />
+                      </div>
+                      <div>
+                        <a class="h6 stretched-link" href="group-details.html#">Lori Ferguson</a>
+                      </div>
+                    </div>
+                    <a class='dropdown-item text-success btn-sm my-2 text-center' href='my-profile.html'>See all profile</a
+                      >
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex justify-content-between" data-bs-toggle="collapse" href="group-details.html#collapseOne" href="group-details.html#"
+                      >
+                    <span>
+                    <i class="bi bi-gear fa-fw me-2 text-success"></i>Settings &amp;
+                    Privacy
+                    </span>
+                    <span>
+                    <i class="bi bi-caret-down-fill fa-fw  text-dark"></i></span>
+                    </a
+                      >
+                    <ul class="sub-cus-drop-memu-two collapse"  id="collapseOne" data-bs-parent="#accordion">
+                      <li>
+                        <a class='dropdown-item' href='account-settings.html'><i class="bi bi-gear fa-fw me-2 text-success"></i>Account Settings</a>
+                      </li>
+                      <li>
+                        <a class='dropdown-item' href='privacy-checkup.html'><i class="bi bi-lock fa-fw me-2 text-success"></i>Privacy Checkup</a>
+                      </li>
+                      <li>
+                        <a class='dropdown-item' href='activity-log.html'><i class="bi bi-list fa-fw me-2 text-success"></i>Activity Log</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="group-details.html#"
+                          ><i class="bi bi-translate fa-fw me-2 text-success"></i>Language</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item  d-flex justify-content-between" data-bs-toggle="collapse" href="group-details.html#collapseTwo" href="group-details.html#"
+                      >
+                    <span>
+                    <i class="fa-fw bi bi-life-preserver me-2  text-success"></i>Help & Support
+                    </span>
+                    <span>
+                    <i class="bi bi-caret-down-fill fa-fw  text-dark"></i></span>
+                    </a>
+                    <ul class="sub-cus-drop-memu-two collapse"  id="collapseTwo" data-bs-parent="#accordion">
+                      <li>
+                        <a class='dropdown-item' href='help-center.html'><i class="bi bi-question-circle fa-fw me-2 text-success"></i>Help Center</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="group-details.html#"
+                          ><i class="bi bi-info-circle fa-fw me-2 text-success"></i>Terms & Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="group-details.html#" data-bs-toggle="modal"
+                      data-bs-target="#myPopUpIdeas"
+                      >
+                    <i class="fa-fw bi bi-card-text me-2  text-success"></i>Pop Your Ideas
+                    </a>
+                  </li>
+                  <li>
+                    <a class='dropdown-item bg-danger-soft-hover' href='login.html'><i class="bi bi-power fa-fw me-2  text-success"></i>Log Out</a
+                      >
+                  </li>
+                  <br>
+                </ul>
+              </li>
+              <li class="nav-item ms-4">
+                <a class='nav-link icon-md btn btn-link p-0' href='index.html'>
+                <img src="assets/images/icon/icon-home.png" alt="Home" />
+                </a>
+              </li>
+              <li class="nav-item ms-4">
+                <a   class="nav-link icon-md btn btn-link p-0"
+                  href="group-details.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img src="assets/images/icon/icon-chats.png" alt="Chats" />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu-two  dropdown-menu-size-md p-3 shadow border-0"
+                  aria-labelledby="megamenuDropdown"
+                  >
+                  <div class="d-flex align mb-3-items-center justify-content-between">
+                    <p class="h6 fw-semibold mb-0">Chats</p>
+                    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+                    <div class="d-flex">
+                      <a class='mx-2' href='messaging.html'><span class="text-success bi bi-pencil-square"></span></a>
+                      <div class="dropdown ">
+                        <a href="group-details.html#" class="btn btn-secondary-soft-hover fs-4 px-2 p-0 px-0 py-0 text-black text-secondary" style="position: relative;top:-7px" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-three-dots"></i>
+                        </a>
+                        <ul class="dropdown-menu p-2 dropdown-menu-end" aria-labelledby="cardFeedAction" style="">
+                          <p class="h6 text-dark mt-1 mb-3 fw-bold">Chat Setting</p>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-telephone mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Incoming call sound</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input class="cus-checkbox" type="checkbox" checked="">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-volume-off mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Message sound</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-envelope mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Popup new Message</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-check-circle mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Active Status: ON</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-slash-circle mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Block Settings</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-block mb-3">
+                    <a class='small' href='friends.html#friend-friendrequest-tab-3'><span class="bi bi-chat-left mx-0 text-dark fs-6" style="padding-right: 10px"></span> New requests(3)</a>
+                  </div>
+                  <div class="single-noti d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between ">
+                      <img
+                        src="assets/images/avatar/01.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Sofia</p>
+                        <p><span class="small text-muted">You sent an attachment 9h ago</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly</p>
+                        <p><span class="small text-muted">Hello 10w </span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a class='text-success text-center fw-bold h6 small' href='messaging.html'>See All</a>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-4">
+                <a 
+                  class="nav-link icon-md btn btn-link p-0"
+                  href="group-details.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img
+                  src="assets/images/icon/icon-notification.png"
+                  alt="Notification"
+                  />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu-two  dropdown-menu-size-md p-3 shadow border-0"
+                  aria-labelledby="megamenuDropdown"
+                  >
+                  <div class="d-flex align-items-center justify-content-between">
+                    <p class="h6 fw-semibold mb-3">New</p>
+                    <div class="dropdown ">
+                      <a href="group-details.html#" class="btn btn-secondary-soft-hover fs-4 px-2 p-0 px-0 py-0 text-black text-secondary" style="width: 20px" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="bi bi-three-dots-vertical"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction" style="">
+                        <li>
+                          <a class='dropdown-item py-0 small' href='all-notifications.html'>
+                          <i class="bi bi-bookmark text-success fa-fw pe-2"></i>View all notifications</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-0 small" href="group-details.html#">
+                          <i class="bi bi-check text-success fa-fw pe-2"></i>mark all as read</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-0 small" href="group-details.html#">
+                          <i class="bi bi-x-circle text-success fa-fw pe-2"></i>Notifications setting</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="single-noti d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between ">
+                      <img
+                        src="assets/images/avatar/01.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Sofia <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="d-flex">
+                    <a class='btn btn-gradient d-flex align-items-center justify-content-center mb-3' href='create-new-listing.html'>
+                    Confirm
+                    </a>
+                    <a class='btn btn-light-purple d-flex align-items-center justify-content-center mb-3' href='create-new-listing.html' style='margin-left: 10px'>
+                    Delete
+                    </a>
+                  </div>
+                  <p class="h6 fw-semibold mb-3">Earlier</p>
+                  <div class="single-noti d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between ">
+                      <img
+                        src="assets/images/avatar/01.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Sofia <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-3">
+                <a
+                  class="nav-link icon-md btn btn-link p-0"
+                  href="group-details.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img src="assets/images/icon/icon-menu.png" alt="Menu" />
+                </a>
+                <ul class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu dropdown-menu-size-md p-0 shadow border-0"
+                  aria-labelledby="megamenuDropdown">
+                  <li><a aria-label='Profile' data-bs-original-title='Profile' data-bs-placement='top' data-bs-toggle='tooltip' href='my-profile.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-customer-48.png">
+                    </i>Profile</a>
+                  </li>
+                  <li><a aria-label='Group' data-bs-original-title='Group' data-bs-placement='top' data-bs-toggle='tooltip' href='group.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-user-groups-48.png">
+                    </i>Group</a>
+                  </li>
+                  <li><a aria-label='Friends' data-bs-original-title='Friends' data-bs-placement='top' data-bs-toggle='tooltip' href='friends.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-friends-32.png">
+                    </i>Friends</a>
+                  </li>
+                  <li><a aria-label='Events' data-bs-original-title='Events' data-bs-placement='top' data-bs-toggle='tooltip' href='event.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-event-accepted-48.png">
+                    </i>Events</a>
+                  </li>
+                  <li><a aria-label='Chat' data-bs-original-title='Chat' data-bs-placement='top' data-bs-toggle='tooltip' href='messaging.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-communication-48.png">
+                    </i>Chat</a>
+                  </li>
+                  <li><a aria-label='Marketplace' data-bs-original-title='Marketplace' data-bs-placement='top' data-bs-toggle='tooltip' href='marketplace.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-online-store-48.png">
+                    </i>Marketplace</a>
+                  </li>
+                  <li><a  href="group-details.html#" data-bs-toggle="modal"
+                      data-bs-target="#myInviteModal"  title=""  data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Invite" data-bs-original-title="Invite"><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-invite-48.png">
+                    </i>Invite</a>
+                  </li>
+                  <li><a aria-label='Go Live' data-bs-original-title='Go Live' data-bs-placement='top' data-bs-toggle='tooltip' href='live.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-live-broadcast-64.png">
+                    </i>Go Live</a>
+                  </li>
+                  <li><a aria-label='News' data-bs-original-title='News' data-bs-placement='top' data-bs-toggle='tooltip' href='news.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-news-64.png">
+                    </i>News</a>
+                  </li>
+                  <li><a aria-label='Video' data-bs-original-title='Video' data-bs-placement='top' data-bs-toggle='tooltip' href='video.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-video-file-48.png">
+                    </i>Video</a>
+                  </li>
+                  <li><a aria-label='Pages' data-bs-original-title='Pages' data-bs-placement='top' data-bs-toggle='tooltip' href='pages.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-flag-48.png">
+                    </i>Pages</a>
+                  </li>
+                  <li><a aria-label='Radio' data-bs-original-title='Radio' data-bs-placement='top' data-bs-toggle='tooltip' href='radio.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-radio-station-48.png">
+                    </i>Radio</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="group-main mb-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center mb-4 d-lg-none">
+              <button
+                class="border-0 bg-transparent"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+              >
+                <span class="btn btn-primary"
+                  ><i class="fa-solid fa-sliders-h"></i
+                ></span>
+                <span class="h6 mb-0 fw-bold d-lg-none ms-2">Settings</span>
+              </button>
+            </div>
+
+            <nav class="navbar navbar-light navbar-expand-lg mx-0">
+              <div
+                class="offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+              >
+                <div class="offcanvas-body p-0 position-fixed w-25 pe-4">
+                  <div class="card shadow w-100 h-100vh bg-primary">
+                    <div class="card-body">
+                      <nav
+                        style="--bs-breadcrumb-divider: '<'"
+                        aria-label="breadcrumb"
+                      >
+                        <ol class="breadcrumb border-bottom">
+                          <li class="breadcrumb-item fs-5 text-light fw-bold">
+                            <a class='text-light' href='group.html'>Groups</a>
+                          </li>
+                          <li
+                            class="breadcrumb-item active fs-5 text-success fw-bold"
+                            aria-current="page"
+                          >
+                            Group Details
+                          </li>
+                        </ol>
+                      </nav>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div class="col-lg-6 vstack">
+            <div class="create-group-banner">
+              <img
+                src="assets/images/field-hockey-players-during-tournament-game.jpg"
+                class="rounded-2 h-100 opacity-4 w-100"
+                alt=""
+              />
+            </div>
+            <div class="create-group-name mt-3">
+              <p class="h5 text-dark fw-bold mb-0 opacity-75">Bobs & Sofia</p>
+              <p class="small text-dark">1 member</p>
+            </div>
+            <div
+              class="create-group-details d-flex justify-content-between w-25"
+            >
+              <p class="h5 text-dark fw-bold opacity-75">Post</p>
+              <p class="h5 text-dark fw-bold opacity-75">About</p>
+              <p class="h5 text-dark fw-bold opacity-75">Members</p>
+            </div>
+            <p class="small text-dark">
+              You can use this once you create a group
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Modal HTML -->
+  <div class="modal fade" id="myInviteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <form>
+            <div class="modal-header bg-info border-bottom-0 py-1">
+              <h5 class="modal-title" id="modalLabelFilterPosts">
+                Invite Friends
+              </h5>
+              <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn p-0 text-black">
+                <i class="bi bi-x-circle fs-3"></i>
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <div class="mb-3">
+                
+                <div class="editcoverphoto-section my-3">
+                  <div class="d-flex justify-content-between">
+                    <p class="text-dark fs-6 fw-semibold">Enter the email address of a friend to join Hi2</p>
+                  </div>
+                  <input type="" name="" placeholder="Email Address" class="form-control shadow border-0">
+
+                  <a href="group-details.html#" data-bs-toggle="modal" data-bs-target="#modalWork" type="button">
+                        <div class="d-flex align-items-center mt-3">
+                          <i class="bi bi-share fs-3" style="vertical-align: middle;    vertical-align: middle;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #131c61;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px !important;
+    padding: 5px;"></i>
+                          <span class="ms-2 fs-6" style="color: #131c61">Share link to Whatsapp</span>
+                  </div>
+                  </a>
+                </div>
+                
+                
+                
+              </div>
+            </div>
+
+          <div class="modal-footer border-0 text-end">
+              <button type="reset" class="btn btn-outline-primary px-5 me-3">
+                Cancel
+              </button>
+              <button type="button" class="btn btn-gradient px-5">Save</button>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+ <!-- Modal HTML -->
+                <div class="modal fade" id="myPopUpIdeas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <form>
+                        <div class="modal-header bg-info border-bottom-0 py-1">
+                          <h5 class="modal-title" id="modalLabelFilterPosts">
+                            Pop your Ideas
+                          </h5>
+                          <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn p-0 text-black">
+                          <i class="bi bi-x-circle fs-3"></i>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="mb-3">
+                            <div class="editcoverphoto-section my-3">
+                              <div class="d-flex justify-content-between">
+                                <p class="fs-5 fw-semibold" style="color: #131c61">Tell us how can we improve?</p>
+                              </div>
+                              <textarea type="" style="height: 100px" name="" placeholder="Email Address" class="form-control shadow border-0">Mention details here..</textarea>
+                              <div class="file-upload">
+                                <input type="file" class="form-control shadow border-0" id="upload-input" accept="image/*">
+                                <label for="upload-input" class="form-control shadow border-0">
+                                <span class="icon bi bi-paperclip"></span>
+                                <span class="text">Add a screenshot or video (recommended)</span>
+                                </label>
+                              </div>
+                              <style type="text/css">
+                                .file-upload {
+                                position: relative;
+                                display: inline-block;
+                                width: 100%;
+                                margin-top: 10px;
+                                }
+                                #upload-input {
+                                display: none;
+                                }
+                                .label {
+                                display: inline-block;
+                                padding: 10px;
+                                border: 1px solid #ccc;
+                                border-radius: 5px;
+                                background-color: #f5f5f5;
+                                cursor: pointer;
+                                color: #131c61
+                                }
+                                .icon {
+                                display: inline-block;
+                                font-size: 20px;
+                                margin-right: 5px;
+                                color: #131c61
+                                }
+                                .text {
+                                display: inline-block;
+                                vertical-align: middle;
+                                color: #131c61
+                                }
+                              </style>
+                              <script type="text/javascript">
+                                const uploadInput = document.getElementById('upload-input');
+                                const textElement = document.querySelector('.text');
+                                
+                                uploadInput.addEventListener('change', handleFileSelect);
+                                
+                                function handleFileSelect(event) {
+                                const file = event.target.files[0];
+                                if (file) {
+                                  textElement.textContent = file.name;
+                                } else {
+                                  textElement.textContent = 'Choose a file';
+                                }
+                                }
+                                
+                              </script>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer border-0 justify-content-center">
+                          <button type="button" class="btn btn-gradient px-5">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/vendor/dropzone/dist/dropzone.js"></script>
+    <script src="assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="assets/vendor/glightbox-master/dist/js/glightbox.min.js"></script>
+    <script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+
+    <script src="assets/js/functions.js"></script>
+  </body>
+</html>

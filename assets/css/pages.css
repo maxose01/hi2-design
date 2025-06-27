@@ -1,0 +1,35 @@
+.btn-light-blue
+{
+	background: #d2d7fe;
+	color: #131c61
+}
+
+.btn-light-purple
+{
+	background: #f1eaea;
+	color: #131c61
+}
+
+span.invi {
+    width: 7px;
+    height: 7px;
+    background: #4cda4f;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-circle {
+    background: #2377b3;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+
+.single-noti {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+/* .form-check-input:checked {
+    background-color:var(--bs-primary);
+    border-color: var(--bs-primary);
+} */
+/* .form-check-input:focus {
+    border-color:var(--bs-darksuccess);
+} */
+.top-75{
+    top:75%
+}

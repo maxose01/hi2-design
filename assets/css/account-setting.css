@@ -1,0 +1,40 @@
+.account-image img
+{
+	height: 100px;
+	width: 100px;
+}
+
+.cust-form-group
+{
+	position: relative;
+}
+
+.cust-form-group span
+{
+	position: absolute;
+	position: absolute;
+	content: "";
+	right: 15px;
+    top: 40px;
+}
+
+.nav.cust-nav-tabs .nav-item .nav-link.active {
+    color: #131c61 !important;
+    opacity: unset !important;
+    font-weight: 700 !important;
+    background: transparent;
+    border:0;
+    text-decoration: underline;
+}
+
+.nav.cust-nav-tabs .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 700 !important;
+    opacity: 0.4;
+    border:0;
+}
+
+.nav.cust-nav-tabs .nav-item .nav-link:hover
+{
+	border:0;
+}

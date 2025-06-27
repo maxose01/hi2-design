@@ -1,0 +1,15 @@
+.friend-main .nav-pills-soft .nav-link.active,
+.friend-main .nav .nav-item .nav-link.active {
+  /* background-color: rgba(var(--bs-primary-rgb), 0.1); */
+  background: var(--bs-info);
+  color: var(--bs-primary);
+}
+.friend-main .nav-link{
+    color: #fff;
+}
+
+.friend-main .nav-link:hover, .nav-link:focus {
+    /* color: var(--bs-nav-link-hover-color); */
+    background: var(--bs-info);
+  color: var(--bs-primary);
+}

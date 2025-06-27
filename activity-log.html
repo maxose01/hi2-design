@@ -1,0 +1,1980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Activity Log | Hi2</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <script></script>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+      />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/font-awesome/css/all.min.css"
+      />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/dropzone/dist/dropzone.css"
+      />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/glightbox-master/dist/css/glightbox.min.css"
+      />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/choices.js/public/assets/styles/choices.min.css"
+      />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/flatpickr/dist/flatpickr.min.css"
+      />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/myprofile.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/group.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css" />
+
+      <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/OverlayScrollbars-master/css/OverlayScrollbars.min.css"
+    />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-item">
+        <div class="spinner-grow text-success"></div>
+      </div>
+    </div>
+    <header class="navbar-light fixed-top header-static bg-mode">
+      <nav
+        class="navbar navbar-expand-lg navbar-top px-3 py-2 text-bg-primary shadow fixed-top"
+        >
+        <div class="container-xxl">
+          <a class='d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none' href='index.html'>
+          <img src="assets/images/logo.png" alt="hi2" class="navbar-logo" />
+          </a>
+          <button
+            class="navbar-toggler ms-auto icon-md btn btn-light p-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+          <span class="navbar-toggler-animation">
+          <span></span>
+          <span></span>
+          <span></span>
+          </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div
+              class="nav mt-3 mt-lg-0 flex-nowrap align-items-center px-4 px-lg-0"
+              >
+              <div class="nav-item w-100">
+                <form
+                  class="rounded position-relative col-12 col-lg-auto mb-2 mb-lg-0 ms-lg-3"
+                  >
+                  <input
+                    class="form-control ps-5 bg-light rounded-pill"
+                    type="search"
+                    placeholder="Search..."
+                    aria-label="Search"
+                    />
+                  <button
+                    class="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y"
+                    type="submit"
+                    >
+                  <i class="bi bi-search fs-5"> </i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <ul
+              class="nav flex-nowrap align-items-center ms-sm-3 list-unstyled px-4 px-lg-0 my-3 my-lg-0 ms-lg-auto"
+              >
+              <li class="nav-item ms-4 px-3 dropdown">
+                <a
+                  class="nav-link icon-md btn btn-link p-0"
+                  href="activity-log.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img
+                  class="avatar-img rounded-circle"
+                  src="assets/images/avatar/15.jpg"
+                  alt=""
+                  />
+                <span class="fw-bold mx-2 text-light">Rosy</span>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu-two  dropdown-menu-size-md p-0 shadow border-0"
+                  aria-labelledby="megamenuDropdown"
+                  >
+                  <li class="px-3 mt-3">
+                    <div class="d-flex align-items-center position-relative">
+                      <div class="avatar me-3">
+                        <img
+                          class="avatar-img rounded-circle"
+                          src="assets/images/avatar/15.jpg"
+                          alt="avatar"
+                          />
+                      </div>
+                      <div>
+                        <a class="h6 stretched-link" href="activity-log.html#">Lori Ferguson</a>
+                      </div>
+                    </div>
+                    <a class='dropdown-item text-success btn-sm my-2 text-center' href='my-profile.html'>See all profile</a
+                      >
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex justify-content-between" data-bs-toggle="collapse" href="activity-log.html#collapseOne" href="activity-log.html#"
+                      >
+                    <span>
+                    <i class="bi bi-gear fa-fw me-2 text-success"></i>Settings &amp;
+                    Privacy
+                    </span>
+                    <span>
+                    <i class="bi bi-caret-down-fill fa-fw  text-dark"></i></span>
+                    </a
+                      >
+                    <ul class="sub-cus-drop-memu-two collapse"  id="collapseOne" data-bs-parent="#accordion">
+                      <li>
+                        <a class='dropdown-item' href='account-settings.html'><i class="bi bi-gear fa-fw me-2 text-success"></i>Account Settings</a>
+                      </li>
+                      <li>
+                        <a class='dropdown-item' href='privacy-checkup.html'><i class="bi bi-lock fa-fw me-2 text-success"></i>Privacy Checkup</a>
+                      </li>
+                      <li>
+                        <a class='dropdown-item' href='activity-log.html'><i class="bi bi-list fa-fw me-2 text-success"></i>Activity Log</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="activity-log.html#"
+                          ><i class="bi bi-translate fa-fw me-2 text-success"></i>Language</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item  d-flex justify-content-between" data-bs-toggle="collapse" href="activity-log.html#collapseTwo" href="activity-log.html#"
+                      >
+                    <span>
+                    <i class="fa-fw bi bi-life-preserver me-2  text-success"></i>Help & Support
+                    </span>
+                    <span>
+                    <i class="bi bi-caret-down-fill fa-fw  text-dark"></i></span>
+                    </a>
+                    <ul class="sub-cus-drop-memu-two collapse"  id="collapseTwo" data-bs-parent="#accordion">
+                      <li>
+                        <a class='dropdown-item' href='help-center.html'><i class="bi bi-question-circle fa-fw me-2 text-success"></i>Help Center</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="activity-log.html#"
+                          ><i class="bi bi-info-circle fa-fw me-2 text-success"></i>Terms & Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="activity-log.html#" data-bs-toggle="modal"
+                      data-bs-target="#myPopUpIdeas"
+                      >
+                    <i class="fa-fw bi bi-card-text me-2  text-success"></i>Pop Your Ideas
+                    </a>
+                  </li>
+                  <li>
+                    <a class='dropdown-item bg-danger-soft-hover' href='login.html'><i class="bi bi-power fa-fw me-2  text-success"></i>Log Out</a
+                      >
+                  </li>
+                  <br>
+                </ul>
+              </li>
+              <li class="nav-item ms-4">
+                <a class='nav-link icon-md btn btn-link p-0' href='index.html'>
+                <img src="assets/images/icon/icon-home.png" alt="Home" />
+                </a>
+              </li>
+              <li class="nav-item ms-4">
+                <a   class="nav-link icon-md btn btn-link p-0"
+                  href="activity-log.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img src="assets/images/icon/icon-chats.png" alt="Chats" />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu-two  dropdown-menu-size-md p-3 shadow border-0"
+                  aria-labelledby="megamenuDropdown"
+                  >
+                  <div class="d-flex align mb-3-items-center justify-content-between">
+                    <p class="h6 fw-semibold mb-0">Chats</p>
+                    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+                    <div class="d-flex">
+                      <a class='mx-2' href='messaging.html'><span class="text-success bi bi-pencil-square"></span></a>
+                      <div class="dropdown ">
+                        <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 p-0 px-0 py-0 text-black text-secondary" style="position: relative;top:-7px" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-three-dots"></i>
+                        </a>
+                        <ul class="dropdown-menu p-2 dropdown-menu-end" aria-labelledby="cardFeedAction" style="">
+                          <p class="h6 text-dark mt-1 mb-3 fw-bold">Chat Setting</p>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-telephone mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Incoming call sound</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input class="cus-checkbox" type="checkbox" checked="">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-volume-off mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Message sound</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-envelope mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Popup new Message</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-check-circle mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Active Status: ON</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center mb-2" style="justify-content: space-between">
+                            <div class="d-flex align-items-center">
+                              <span class="bi bi-slash-circle mx-2 text-dark fs-6"></span>
+                              <div class="px-0">
+                                <p class="h6 mb-1 text-dark fw-semibold small">Block Settings</p>
+                              </div>
+                            </div>
+                            <div class="px-3">
+                              <input  class="cus-checkbox" type="checkbox">
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-block mb-3">
+                    <a class='small' href='friends.html#friend-friendrequest-tab-3'><span class="bi bi-chat-left mx-0 text-dark fs-6" style="padding-right: 10px"></span> New requests(3)</a>
+                  </div>
+                  <div class="single-noti d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between ">
+                      <img
+                        src="assets/images/avatar/01.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Sofia</p>
+                        <p><span class="small text-muted">You sent an attachment 9h ago</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly</p>
+                        <p><span class="small text-muted">Hello 10w </span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a class='text-success text-center fw-bold h6 small' href='messaging.html'>See All</a>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-4">
+                <a 
+                  class="nav-link icon-md btn btn-link p-0"
+                  href="activity-log.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img
+                  src="assets/images/icon/icon-notification.png"
+                  alt="Notification"
+                  />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu-two  dropdown-menu-size-md p-3 shadow border-0"
+                  aria-labelledby="megamenuDropdown"
+                  >
+                  <div class="d-flex align-items-center justify-content-between">
+                    <p class="h6 fw-semibold mb-3">New</p>
+                    <div class="dropdown ">
+                      <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 p-0 px-0 py-0 text-black text-secondary" style="width: 20px" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="bi bi-three-dots-vertical"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction" style="">
+                        <li>
+                          <a class='dropdown-item py-0 small' href='all-notifications.html'>
+                          <i class="bi bi-bookmark text-success fa-fw pe-2"></i>View all notifications</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-0 small" href="activity-log.html#">
+                          <i class="bi bi-check text-success fa-fw pe-2"></i>mark all as read</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-0 small" href="activity-log.html#">
+                          <i class="bi bi-x-circle text-success fa-fw pe-2"></i>Notifications setting</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="single-noti d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between ">
+                      <img
+                        src="assets/images/avatar/01.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Sofia <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="d-flex">
+                    <a class='btn btn-gradient d-flex align-items-center justify-content-center mb-3' href='create-new-listing.html'>
+                    Confirm
+                    </a>
+                    <a class='btn btn-light-purple d-flex align-items-center justify-content-center mb-3' href='create-new-listing.html' style='margin-left: 10px'>
+                    Delete
+                    </a>
+                  </div>
+                  <p class="h6 fw-semibold mb-3">Earlier</p>
+                  <div class="single-noti d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between ">
+                      <img
+                        src="assets/images/avatar/01.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Sofia <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                  <div class="single-noti">
+                    <div class="d-flex">
+                      <img
+                        src="assets/images/avatar/02.jpg"
+                        class="avatar rounded-circle me-2" alt=""
+                        />
+                      <div>
+                        <p class="mb-0 my-0">Jelly <span class="small text-muted">added a new photo </span></p>
+                        <p><span class="small text-muted">10 hours ago </span></p>
+                      </div>
+                    </div>
+                    <div class="status-circle"></div>
+                  </div>
+                                  <div class="text-center">
+                    <a class='text-success text-center fw-bold h6 small' href='all-notifications.html'>See All</a>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-3">
+                <a
+                  class="nav-link icon-md btn btn-link p-0"
+                  href="activity-log.html#"
+                  id="megamenuDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                  >
+                <img src="assets/images/icon/icon-menu.png" alt="Menu" />
+                </a>
+                <ul class="dropdown-menu dropdown-animation dropdown-menu-end cus-drop-memu dropdown-menu-size-md p-0 shadow border-0"
+                  aria-labelledby="megamenuDropdown">
+                  <li><a aria-label='Profile' data-bs-original-title='Profile' data-bs-placement='top' data-bs-toggle='tooltip' href='my-profile.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-customer-48.png">
+                    </i>Profile</a>
+                  </li>
+                  <li><a aria-label='Group' data-bs-original-title='Group' data-bs-placement='top' data-bs-toggle='tooltip' href='group.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-user-groups-48.png">
+                    </i>Group</a>
+                  </li>
+                  <li><a aria-label='Friends' data-bs-original-title='Friends' data-bs-placement='top' data-bs-toggle='tooltip' href='friends.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-friends-32.png">
+                    </i>Friends</a>
+                  </li>
+                  <li><a aria-label='Events' data-bs-original-title='Events' data-bs-placement='top' data-bs-toggle='tooltip' href='event.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-event-accepted-48.png">
+                    </i>Events</a>
+                  </li>
+                  <li><a aria-label='Chat' data-bs-original-title='Chat' data-bs-placement='top' data-bs-toggle='tooltip' href='messaging.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-communication-48.png">
+                    </i>Chat</a>
+                  </li>
+                  <li><a aria-label='Marketplace' data-bs-original-title='Marketplace' data-bs-placement='top' data-bs-toggle='tooltip' href='marketplace.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-online-store-48.png">
+                    </i>Marketplace</a>
+                  </li>
+                  <li><a  href="activity-log.html#" data-bs-toggle="modal"
+                    data-bs-target="#myInviteModal"  title=""  data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Invite" data-bs-original-title="Invite"><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-invite-48.png">
+                    </i>Invite</a>
+                  </li>
+                  <li><a aria-label='Go Live' data-bs-original-title='Go Live' data-bs-placement='top' data-bs-toggle='tooltip' href='live.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-live-broadcast-64.png">
+                    </i>Go Live</a>
+                  </li>
+                  <li><a aria-label='News' data-bs-original-title='News' data-bs-placement='top' data-bs-toggle='tooltip' href='news.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-news-64.png">
+                    </i>News</a>
+                  </li>
+                  <li><a aria-label='Video' data-bs-original-title='Video' data-bs-placement='top' data-bs-toggle='tooltip' href='video.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-video-file-48.png">
+                    </i>Video</a>
+                  </li>
+                  <li><a aria-label='Pages' data-bs-original-title='Pages' data-bs-placement='top' data-bs-toggle='tooltip' href='pages.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-flag-48.png">
+                    </i>Pages</a>
+                  </li>
+                  <li><a aria-label='Radio' data-bs-original-title='Radio' data-bs-placement='top' data-bs-toggle='tooltip' href='radio.html' title><i class="icofont-user-alt-3">
+                    <img src="assets/images/icon/icons8-radio-station-48.png">
+                    </i>Radio</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="group-main mb-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 vstack gap-4">
+          
+
+<!-- Tab panes -->
+<!-- <div class="tab-content">
+  <div class="tab-pane container active" id="home">...1</div>
+  <div class="tab-pane container fade" id="menu1">...2</div>
+  <div class="tab-pane container fade" id="menu2">...3</div>
+</div> -->
+            <div class="tab-content py-0 mb-0">
+              <div class="tab-pane active" id="one">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Your Post</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">shared a video</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">shared a video</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">shared a video</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">shared a video</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">shared a video</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">shared a video</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div  class="tab-pane fade" id="two">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Activity you're tagged in</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">was tagged in a photo.</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-0 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              02 Dec, 2021
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">was tagged in a post.</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <p class="h6 mb-0 text-muted fw-normal">Happy New Year 2022</p> 
+                                <span class="nav-item ms-0 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div  class="tab-pane fade" id="three">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Interactions</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">commented on <strong>John Lisa's</strong>'s <strong>photo</strong>.</span>
+                                    <p class="text-muted mb-0 h6 fw-normal">wow nice</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">likes <strong>John Lisa's</strong>'s <strong>photo</strong>.</span>
+                                    <p class="text-muted mb-0 h6 fw-normal">Stay royal …👑</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">12:23 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div  class="tab-pane fade" id="four">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Group and Events</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              03 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">You became a member of  <strong>Lead Generation Group.</strong></span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Lead Generation Group.</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              02 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Email Marketing Services
+                                    <span class="text-muted fw-normal">has approved your request to participate.</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Email Marketing Services</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">2:23 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div  class="tab-pane fade" id="five">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Profile information</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              06 Apr, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">updated his relationship information.</span>
+                                    <p class="h6 mb-0 text-muted fw-normal">Married to Lisa</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-0 fw-semibold">
+                                <i class="bi bi-lock-fill text-success"></i>
+                                Only me</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              04 Apr, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal"> updated his profile picture.</span>
+                                    <p class="h6 mb-0 text-muted fw-normal">Married to Lisa</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-0 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">1:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div  class="tab-pane fade" id="six">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Connections</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              06 Apr, 2023
+                            </p>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy <span class="text-muted fw-normal">Accepted</span>
+                                    <span class="h6 mb-0 text-muted fw-normal"><strong>Lisa Patter's</strong> Friend request.</span>
+                                    </a>
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              06 Apr, 2023
+                            </p>
+                            
+                             
+                              <div class="dropdown">
+                              <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 py-0 text-black text-secondary show" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="bi bi-three-dots"></i>
+                              </a>
+
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 39px);">
+                                <li>
+                                  <a class="dropdown-item py-0" href="activity-log.html#">
+                                    <i class="bi bi-person-x-fill fa-fw pe-2"></i>Unfriend</a>
+                                </li>
+                                <li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy <span class="text-muted fw-normal"> became friends with </span>
+                                    <span class="h6 mb-0 text-muted fw-normal"><strong>Lisa Patter</strong></span>
+                                    </a>
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div  class="tab-pane fade" id="seven">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Logged actions and other activity</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              01 Jan 2023
+                            </p>
+                                                          <div class="dropdown">
+                              <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 py-0 text-black text-secondary show" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="bi bi-three-dots"></i>
+                              </a>
+
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 39px);">
+                                <li>
+                                  <a class="dropdown-item py-0" href="activity-log.html#">
+                                    <i class="bi bi-box-arrow-right fa-fw pe-2"></i>Logout</a>
+                                </li>
+                                <li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy <span class="text-muted fw-normal">logged out of www.facebook.com.</span>
+                                    <p class="h6 mb-0 text-muted fw-normal">IP address 052.88.76.21</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              01 Apr, 2023
+                            </p>
+                            
+                             
+                              <div class="dropdown">
+                              <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 py-0 text-black text-secondary show" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="bi bi-three-dots"></i>
+                              </a>
+
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 39px);">
+                                <li>
+                                  <a class="dropdown-item py-0" href="activity-log.html#">
+                                    <i class="bi bi-trash3 fa-fw pe-2"></i>Delete</a>
+                                </li>
+                                <li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy <span class="text-muted fw-normal"> watched a  </span>
+                                    <span class="h6 mb-0 text-muted fw-normal"><strong>video</strong></span>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-0 fw-semibold">
+                                <i class="bi bi-lock-fill text-success"></i>
+                                Only me</span> . Hidden from profile</span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div  class="tab-pane fade" id="eight">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Activity log</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              01 Jan 2023
+                            </p>
+                                                          <div class="dropdown">
+                              <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 py-0 text-black text-secondary show" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="bi bi-three-dots"></i>
+                              </a>
+
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 39px);">
+                                <li>
+                                  <a class="dropdown-item py-0" href="activity-log.html#">
+                                    <i class="bi bi-trash3 fa-fw pe-2"></i>Delete</a>
+                                </li>
+                                <li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/user-thumb.png" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!"><span class="text-muted fw-normal">You searched Facebook</span>
+                                    <p class="h6 mb-0 text-muted fw-normal">Email Marketing</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                                                                <span class="small text-muted">
+                                <span class="nav-item ms-0 fw-semibold">
+                                <i class="bi bi-lock-fill text-success"></i>
+                             Only Me</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">10:21 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="card shadow mt-3 border-corner overflow-hidden">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 text-dark  mb-3 fw-semibold mb-0">
+                              22 Feb, 2023
+                            </p>
+                            <div>
+                              <a href="activity-log.html#" class="text-secondary btn btn-secondary-soft-hover fs-4 py-1 px-2" id="cardFeedAction1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-trash3 text-danger"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar avatar-story me-2 p-0">
+                                <a href="activity-log.html#!">
+                                <img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="maria">
+                                </a>
+                              </div>
+                              <div>
+                                <div class="nav nav-divider">
+                                  <h6 class="nav-item card-title mb-0">
+                                    <a href="activity-log.html#!">
+                                    Rosy
+                                    <span class="text-muted fw-normal">likes <strong>John Lisa's</strong>'s <strong>photo</strong>.</span>
+                                    <p class="text-muted mb-0 h6 fw-normal">Stay royal …👑</p>
+                                    </a>
+                                  </h6>
+                                </div>
+                                <span class="small text-muted">
+                                <span class="nav-item ms-2 fw-semibold">
+                                <i class="bi bi-people text-success"></i>
+                                Friends</span></span>
+                              </div>
+                            </div>
+                            <div class="">
+                              <p class="mb-0">
+                                <span class="small text-muted fw-normal text-secondary fw-semibold fs-7">12:23 PM</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                            <div  class="tab-pane fade" id="nine">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mt-2">
+                        <p class="h5 mb-2 mt-3 text-dark fw-bold">Items in your trash are only visible to you.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="card shadow mt-3 border-corner">
+                        <div class="card-header bg-info border-0 pb-3">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <p class="h6 mb-0 text-dark fw-semibold mb-0">
+                              <label class="cus-checkbx"> All
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                            </p>
+                            <style>
+/* The container */
+.cus-checkbx {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 25px;
+}
+
+/* Hide the browser's default checkbox */
+.cus-checkbx input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.cus-checkbx:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cus-checkbx input:checked ~ .checkmark {
+  background-color: #131c61;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cus-checkbx input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cus-checkbx .checkmark:after {
+  left: 9px;
+  top: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+</style>
+                                                          <div class="dropdown">
+                              <a href="activity-log.html#" class="btn btn-secondary-soft-hover fs-4 px-2 py-0 text-black text-secondary show" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="bi bi-three-dots"></i>
+                              </a>
+
+                              <ul class="dropdown-menu dropdown-menu-end px-2" aria-labelledby="cardFeedAction" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 39px);">
+                                <li>
+                                  <a class="dropdown-item py-0" href="activity-log.html#">
+                                    <i class="bi bi-reply fa-fw pe-2"></i>Restore</a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item py-0" href="activity-log.html#">
+                                    <i class="bi bi-trash3 fa-fw pe-2"></i>Delete</a>
+                                </li>
+                                <li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="text-muted h6 mt-3">Nothing to show</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center mb-4 d-lg-none">
+              <button
+                class="border-0 bg-transparent"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                >
+              <span class="btn btn-primary"
+                ><i class="fa-solid fa-sliders-h"></i
+                ></span>
+              <span class="h6 mb-0 fw-bold d-lg-none ms-2">Settings</span>
+              </button>
+            </div>
+            <nav class="navbar navbar-light navbar-expand-lg mx-0">
+              <div
+                class="offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                >
+                <div class="offcanvas-body p-0 position-fixed w-25 pe-4">
+                  <div class="card shadow w-100  bg-primary  custom-scrollbar" style="max-height: 100vh;padding-bottom: 90px">
+                    <div class="card-body">
+                      <p class="h6 text-light fw-bold p-3 border-bottom">
+                        Activity Log
+                      </p>
+                      <p  class="h6 text-light fw-bold d-flex align-items-center justify-content-start pb-1 pt-1 border-bottom">
+                        <i class="bi bi-filter-left  fs-3 fa-fw"></i
+                          ><span class="ms-2">Filters </span>
+                        </li>
+     
+                      <ul
+                        class="nav nav-tabs gap-2 nav-pills nav-pills-soft flex-column fw-bold border-0"
+                        >
+                        <li class="nav-item">
+                          <div class="d-flex justify-content-between align-items-center">
+                          <a class="nav-linkz text-light d-flex mb-0" style="padding: 0.5rem 1rem">
+                          <i class="bi bi-calendar-week me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Date</span></a
+                            >
+                            <style type="text/css">
+                              .cus-form-control option{
+                                color: #000
+                              }
+                              .cus-form-control, .cus-form-control:focus
+                              {
+                                    width: auto;
+                                    outline: none;
+                                    padding: 5px 10px;
+                              }
+                            </style>
+
+                            <div class="dropdown">
+                              <a href="activity-log.html#" class="btn fs-6 text-light px-2 py-0  show" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="true">
+                               All <i class="bi bi-caret-down-fill"></i>
+                              </a>
+
+                              <ul class="dropdown-menu overflow-hidden dropdown-menu-end" aria-labelledby="cardFeedAction" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 39px);border-radius: 12px">
+                                <p class="text-center border-bottom h5 pb-2">Filter</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                <div class="px-2">
+                                <label class="form-label text-dark">Year</label>
+                                <select class="form-control cus-form-control">
+                                  <option>All <span class="bi bi-caret-down-fill"></span></option>
+                                  <option>2023</option>
+                                  <option>2022</option>
+                                  <option>2021</option>
+                                </select>
+                                </div>
+                                <div class="px-2">
+                                <label class="form-label text-dark">Month</label>
+                                <select class="form-control cus-form-control">
+                                  <option>All <span class="bi bi-caret-down-fill"></span></option>
+                                  <option>Dec</option>
+                                  <option>Nov</option>
+                                  <option>Oct</option>
+                                  <option>Sep</option>
+                                  <option>Aug</option>
+                                  <option>Jul</option>
+                                  <option>Jun</option>
+                                  <option>May</option>
+                                  <option>Apr</option>
+                                  <option>Mar</option>
+                                  <option>Feb</option>
+                                  <option>Jan</option>
+                                </select>
+                                </div>
+                              </div>
+                              <div class="px-2 text-center mt-3">
+                              <button type="button" class="btn btn-gradient">Save Changes</button>
+                            </div>
+                              </ul>
+                            </div>
+                           </div>
+
+                        </li>
+                        <li class="nav-item"><a class="nav-link d-flex mb-0 active"
+                             data-bs-toggle="tab" href="activity-log.html#one">
+                          <i class="bi bi-images me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Your Post </span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"  data-bs-toggle="tab" href="activity-log.html#two"
+                            >
+                          <i class="bi bi-tag me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Activity you're tagged in</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#three"
+                            >
+                          <i class="bi bi-hand-thumbs-up me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Interactions</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#four"
+                            >
+                          <i class="bi bi-people me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Group and events</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#five"
+                            >
+                          <i class="bi bi-person me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Profile Information</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#six"
+                            >
+                          <i class="bi bi-share me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Connections</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#seven"                            >
+                          <i class="me-2">
+                          <img src="assets/images/logo.png" alt="hi2" style="width: 25px;height: 25px" />
+                          </i
+                            ><span class="">Log actions & others activity</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#eight"
+                            >
+                          <i class="bi bi-list-ul me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Activity History</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link d-flex mb-0"   data-bs-toggle="tab" href="activity-log.html#nine"
+                            >
+                          <i class="bi bi-trash3 me-2 h-20px fs-5 fa-fw"></i
+                            ><span class="">Trash</span></a
+                            >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Modal HTML -->
+    <div class="modal fade" id="myInviteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <form>
+            <div class="modal-header bg-info border-bottom-0 py-1">
+              <h5 class="modal-title" id="modalLabelFilterPosts">
+                Invite Friends
+              </h5>
+              <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn p-0 text-black">
+              <i class="bi bi-x-circle fs-3"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <div class="editcoverphoto-section my-3">
+                  <div class="d-flex justify-content-between">
+                    <p class="text-dark fs-6 fw-semibold">Enter the email address of a friend to join Hi2</p>
+                  </div>
+                  <input type="" name="" placeholder="Email Address" class="form-control shadow border-0">
+                  <a href="activity-log.html#" data-bs-toggle="modal" data-bs-target="#modalWork" type="button">
+                    <div class="d-flex align-items-center mt-3">
+                      <i class="bi bi-share fs-3" style="vertical-align: middle;    vertical-align: middle;
+                        display: block;
+                        width: 35px;
+                        height: 35px;
+                        background: #131c61;
+                        color: #fff !important;
+                        text-align: center;
+                        border-radius: 50%;
+                        font-size: 16px !important;
+                        padding: 5px;"></i>
+                      <span class="ms-2 fs-6" style="color: #131c61">Share link to Whatsapp</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0 text-end">
+              <button type="reset" class="btn btn-outline-primary px-5 me-3">
+              Cancel
+              </button>
+              <button type="button" class="btn btn-gradient px-5">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal HTML -->
+    <div class="modal fade" id="myPopUpIdeas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <form>
+            <div class="modal-header bg-info border-bottom-0 py-1">
+              <h5 class="modal-title" id="modalLabelFilterPosts">
+                Pop your Ideas
+              </h5>
+              <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn p-0 text-black">
+              <i class="bi bi-x-circle fs-3"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <div class="editcoverphoto-section my-3">
+                  <div class="d-flex justify-content-between">
+                    <p class="fs-5 fw-semibold" style="color: #131c61">Tell us how can we improve?</p>
+                  </div>
+                  <textarea type="" style="height: 100px" name="" placeholder="Email Address" class="form-control shadow border-0">Mention details here..</textarea>
+                  <div class="file-upload">
+                    <input type="file" class="form-control shadow border-0" id="upload-input" accept="image/*">
+                    <label for="upload-input" class="form-control shadow border-0">
+                    <span class="icon bi bi-paperclip"></span>
+                    <span class="text">Add a screenshot or video (recommended)</span>
+                    </label>
+                  </div>
+                  <style type="text/css">
+                    .file-upload {
+                    position: relative;
+                    display: inline-block;
+                    width: 100%;
+                    margin-top: 10px;
+                    }
+                    #upload-input {
+                    display: none;
+                    }
+                    .label {
+                    display: inline-block;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    background-color: #f5f5f5;
+                    cursor: pointer;
+                    color: #131c61
+                    }
+                    .icon {
+                    display: inline-block;
+                    font-size: 20px;
+                    margin-right: 5px;
+                    color: #131c61
+                    }
+                    .text {
+                    display: inline-block;
+                    vertical-align: middle;
+                    color: #131c61
+                    }
+                  </style>
+                  <script type="text/javascript">
+                    const uploadInput = document.getElementById('upload-input');
+                    const textElement = document.querySelector('.text');
+                    
+                    uploadInput.addEventListener('change', handleFileSelect);
+                    
+                    function handleFileSelect(event) {
+                    const file = event.target.files[0];
+                    if (file) {
+                      textElement.textContent = file.name;
+                    } else {
+                      textElement.textContent = 'Choose a file';
+                    }
+                    }
+                    
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0 justify-content-center">
+              <button type="button" class="btn btn-gradient px-5">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/dropzone/dist/dropzone.js"></script>
+    <script src="assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="assets/vendor/glightbox-master/dist/js/glightbox.min.js"></script>
+    <script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+                <script src="assets/vendor/OverlayScrollbars-master/js/OverlayScrollbars.min.js"></script>
+
+  </body>
+</html>

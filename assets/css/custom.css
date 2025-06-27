@@ -1,0 +1,36 @@
+input.cus-checkbox[type="checkbox"] {
+  position: relative;
+  width: 32px;
+  height: 16px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #fff;
+  outline: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 2px solid #55db4e;
+}
+
+input.cus-checkbox[type="checkbox"]::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #55db4e;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  transition: 0.5s;
+}
+
+input.cus-checkbox[.type="checkbox"]:checked::before {
+  transform: translateX(100%);
+  background: #00ed64;
+  right: 10px;
+  left: unset;
+}
+
+input.cus-checkbox[type="checkbox"]:checked {
+  background: #fff;
+  opacity: 0.4;
+}
